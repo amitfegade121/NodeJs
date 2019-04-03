@@ -1,11 +1,17 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "description": "creating a basic calculator",
+  "description": "simple calculator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "test": "test"
   },
-  "author": "Prashant",
-  "license": "ISC"
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ptalluru",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.0.2"
+  }
 }
