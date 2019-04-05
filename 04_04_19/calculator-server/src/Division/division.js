@@ -1,7 +1,7 @@
 //dividing the two numbers
 function division(a, b) {
     try {
-        division = a / b;
+        division = parseInt(a) / parseInt(b);
         return division;
     } catch (error) {
         console.error(error);
