@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "creates simple calculator",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "mrudula+Srivani+prashant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "pug": "^2.0.3"
+  }
+}

@@ -1,0 +1,19 @@
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    main
+      block header
+        header.header
+          h1 #{title}
+        form(action="arithmetic_operations", method="get")
+           label(for="first_number") Enter the first_number:
+           input(type="number", name="first_number")
+           label(for="second_number") Enter the second_number:
+           input(type="number", name="second_number")
+           label(for="operation") Enter the operation you want to perform:
+           input(type="text",name="operation")
+           input(type="submit", name="submit")
+      block content

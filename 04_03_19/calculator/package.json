@@ -1,17 +1,22 @@
 {
-  "name": "calculator",
+  "name": "simple_calc",
   "version": "1.0.0",
-  "description": "simple calculator",
+  "description": "calculator",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "mocha": "^6.0.2",
+    "user": "^0.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "mocha"
   },
-  "author": "ptalluru",
-  "license": "ISC",
-  "dependencies": {
-    "mocha": "^6.0.2"
-  }
+  "keywords": [
+    "calc"
+  ],
+  "author": "Prasanth+Mrudula+Srivani",
+  "license": "ISC"
 }
