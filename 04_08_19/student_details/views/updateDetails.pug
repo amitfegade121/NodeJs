@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+    body
+        form(action="http://localhost:2346/updateStudentDetails")
+            input(type="text", name="name" value=studentDetail.name)     
+            input(type="number", name="phoneNumber" value=studentDetail.phoneNumber)
+            input(type="text", name="address" value=studentDetail.address)
+            input(type="text", name="dateOfBirth" value=studentDetail.dateOfBirth)
+            input(type="submit", value="update")
